@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/main.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>מחשבון מימון לרכב</h1>
+        <div class="subContainer">
+            <label for="cars">בחר את הרכב שלך</label><br />
+            <select id="cars" name="cars">
+                <option  name="volvo" value="200000">Volvo</option>
+                <option  name="saab" value="80000">Saab</option>
+                <option  name="fiat" value="80000">Fiat</option>
+                <option  name="audi" value="80000">Audi</option>
+            </select><br /><br />
+
+
+            <label for="amont">אחוז מקדמה</label><br />
+            <select id="amont" name="cars">
+                <option  value="10%">10%</option>
+                <option  value="20%">20%</option>
+                <option  value="30%">30%</option>
+                <option  value="40%">40%</option>
+            </select><br /><br />
+
+            <button onclick="x()">Click</button>
+            <p id="sum"></p>
+        </div>
+    </div>
+</body>
+<script src="/index.js"></script>
+
+</html>

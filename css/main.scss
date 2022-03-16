@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.subContainer {
+  width: 30%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  select {
+    width: 150px;
+    height: 40px;
+    background-color: bisque;
+    border: none;
+    outline: none;
+  }
+
+  label {
+    color: rgb(16, 39, 31);
+    font-size: 26px;
+  }
+  button {
+    background-color: brown;
+    padding: 10px;
+    transition: all 0.1s;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  #sum {
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+    animation: myMove 2s;
+    @keyframes myMove {
+      0% {
+        transform: scale(-2);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  }
+}
